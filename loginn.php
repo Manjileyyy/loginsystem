@@ -1,4 +1,4 @@
-
+77777
 
 
 <!DOCTYPE html>
@@ -25,7 +25,7 @@
 	<div class="container email-container">
 		<form  class="form-horizontal" 
 				action="login.php"
-				method="post" 
+				method="post"
 				id="validateForm">
 			<h1>Welcome </h1>
 			<br>
@@ -82,6 +82,6 @@
 			</fieldset>
 		</form>
 	</div>
-	<script src="js/read.js"></script>
+	<script src="read.js"></script>
 </body>
 </html>
