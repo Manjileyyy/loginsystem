@@ -148,4 +148,4 @@
 
 </body>
 </html>
-	<script src="js/read.js"></script>
+	<script src="read.js"></script>
