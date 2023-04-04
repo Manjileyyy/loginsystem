@@ -1,0 +1,202 @@
+*{
+margin: 0px;
+padding: 0px
+}
+body{
+	font-family: 'Poppins', sans-serif;
+font-size: 120%;
+background: #F8F8FF;
+}
+.header{
+width: 30%;
+margin:50px auto 0px;
+color: white;
+background: #5F9EA0;
+text-align: center;
+border: 1px solid #B0C4DE;
+border-bottom: none;
+border-radius: 10px 10px 0px 0px ;
+padding: 20px;
+}
+form{
+width: 30%;
+margin: 0px auto;
+padding: 20px;
+border: 1px solid #B0C4DE;
+background: white;
+border-radius: 0px 0px 10px 10px;
+}
+.input{
+margin: 10px 0px 10px 0px;
+}
+.input label
+{
+display: block;
+text-align: left;
+margin: 3px;
+}
+.input input{
+height: 30px;
+width: 93%;
+padding: 5px 10px;
+font-size: 16px;
+border-radius: 5px;
+border: 1px solid gray;
+
+}
+/*.btn{
+padding: 10px;
+font-size: 15px;
+color: white;
+background: #5F9EA0;
+border: none;
+border-radius: 5px;
+}*/
+
+
+
+
+
+input {
+	color: #022255 !important;
+}
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+	box-shadow: 0 0 5px rgba(246, 8, 118, 0.8);
+	border: 1px solid rgba(246, 8, 110, 0.8);
+}
+
+
+}
+.control-label {
+	text-align: left !important;
+	padding-bottom: 4px;
+}
+
+.progress {
+	height: 2px !important;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+.show-pass {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+}
+
+.progress-bar-danger {
+	background-color: #e90f10;
+}
+
+.progress-bar-warning {
+	background-color: #ffad00;
+}
+
+.progress-bar-success{
+	background-color: #02b502;
+}
+
+.login-btn {
+	width: 200px !important;
+	background-image: linear-gradient(to right, #f6086e, #ff133a) !important;
+	font-size: 15px;
+	color: #fff;
+	margin: 0 auto 5px;
+	padding: 8px 0;
+}
+.login-btn:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.fa-eye {
+	color: #022255;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+
+.ex-account p a {
+	color: #f6086e;
+	text-decoration: underline;
+}
+
+#round,
+#score {
+  display: inline-block;
+  border: thin solid dimgray;
+  width: 50px;
+  height: 15px;
+  text-align: right;
+  line-height: 15px;
+  padding: 5px;
+}
+.fa-circle {
+
+	font-size: 6px;
+}
+
+.fa-check {
+	color: #02b502;
+}
+/*#captchaBackground {
+    height: 100px;
+    width: 250px;
+    background-color: #2d3748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#captchaHeading {
+    color: white;
+}
+
+#captcha {
+    height: 40%;
+    width: 80%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: auto;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submitButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#refreshButton {
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#textBox {
+    height: 25px;
+}
+
+.incorrectCaptcha {
+    color: #FF0000;
+}
+
+.correctCaptcha {
+    color: #7FFF00;
+}
